@@ -111,9 +111,9 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url("images/background.png") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: url('http://tiny.cc/jf32yz') no-repeat;
+  background-size:cover;
+  background-position:center;
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
 }
