@@ -306,7 +306,9 @@ section .button button:hover{
   font-size: 60px;
   color: #4070f4;
 }
-
+.menu-media-icons{
+ display: none;   
+}
 /* My Services CSS */
 .services .boxes{
   display: flex;
@@ -435,6 +437,9 @@ footer .text span a:hover{
   nav .navbar{
     width: 90%;
   }
+  .menu-media-icons{
+   display: block; 
+  }
   nav .navbar .menu{
     position: fixed;
     left: -100%;
@@ -451,6 +456,7 @@ footer .text span a:hover{
   .navbar.active .menu{
     left: 0;
   }
+  
   nav .navbar .menu a{
     font-size: 23px;
     display: block;

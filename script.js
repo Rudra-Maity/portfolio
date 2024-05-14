@@ -35,7 +35,7 @@ cancelBtn.onclick = function(){
 }
 
 // Side Navigation Bar Close While We Click On Navigation Links
-let navLinks = document.querySelectorAll(".menu li a");
+let navLinks = document.querySelectorAll(".menu li a .media-icons");
 for (var i = 0; i < navLinks.length; i++) {
   navLinks[i].addEventListener("click" , function() {
     navBar.classList.remove("active");
